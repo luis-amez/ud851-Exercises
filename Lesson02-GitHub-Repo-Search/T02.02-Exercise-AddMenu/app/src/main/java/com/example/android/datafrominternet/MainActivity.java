@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     // DONE (13) If the item's ID is R.id.action_search, show a Toast and return true to tell Android that you've handled this menu click
     // DONE (14) Don't forgot to call .show() on your Toast
     // DONE (15) If you do NOT handle the menu click, return super.onOptionsItemSelected to let Android handle the menu click
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int itemId = item.getItemId();
         if (itemId == R.id.action_search) {
